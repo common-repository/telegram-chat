@@ -1,0 +1,422 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Telegram-Chat V1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-03 19:26+0000\n"
+"PO-Revision-Date: 2017-01-03 19:27+0000\n"
+"Last-Translator: admin <admin@waempresarial.com>\n"
+"Language-Team: Italian\n"
+"Language: it-IT\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Loco-Source-Locale: es_MX\n"
+"X-Loco-Parser: loco_parse_po\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: it_IT"
+
+#: menu/active.php:48
+msgid "You can not activate more websites with this token"
+msgstr "Non è possibile attivare più siti web con questo token"
+
+#: menu/active.php:82
+msgid "Reviewing activation, wait a moment ..."
+msgstr "La revisione di attivazione, attendere un momento ..."
+
+#: menu/config.php:454
+msgid "Open chat on opening"
+msgstr "Aprire la chat in apertura"
+
+#: menu/config.php:473
+msgid "Welcome message"
+msgstr "Messaggio di benvenuto"
+
+#: telegram-chat.php:159 telegram-chat.php:373
+msgid "Consultor"
+msgstr "Assistente"
+
+#: telegram-chat.php:162
+msgid "Job"
+msgstr "Qualifica"
+
+#: telegram-chat.php:165 menu/config.php:469
+msgid "Department"
+msgstr "Dipartimento"
+
+#: telegram-chat.php:307
+msgid "Contact us"
+msgstr "Contattaci"
+
+#: telegram-chat.php:317
+msgid "Connecting..."
+msgstr "In connessione..."
+
+#: telegram-chat.php:320
+msgid "created by"
+msgstr "creato da"
+
+#: telegram-chat.php:354
+msgid "The user opens the chat on the website"
+msgstr "L'Utente apre la chat"
+
+#: telegram-chat.php:355
+msgid "The user maximizes the window"
+msgstr "L'Utente ha aperto la finestra"
+
+#: telegram-chat.php:356
+msgid "The user minimizes the window"
+msgstr "L'Utente ha ridotto la finestra"
+
+#: telegram-chat.php:357
+msgid "The user leaves the website"
+msgstr "L'utente lascia il sito web"
+
+#: telegram-chat.php:358
+msgid "The name, email and comments are required"
+msgstr "Nome, e-mail e commenti sono obbligatori"
+
+#: telegram-chat.php:359
+msgid "<strong>There are no users,</strong><br>please configure the plugin"
+msgstr ""
+"<strong> Non ci sono utenti, </strong> <br> si prega di configurare il plugin"
+
+#: telegram-chat.php:360
+msgid ""
+"<strong>The license has expired,</strong><br>please go to the website <a "
+"href='http://telegramwordpress.com' target='_blank'>http://telegramwordpress."
+"com</a>"
+msgstr ""
+"<strong> La licenza è scaduta, </strong> <br> si prega di visitare il sito "
+"Web <a href='http://telegramwordpress.com' target='_blank'> http:"
+"//telegramwordpress.com </a>"
+
+#: telegram-chat.php:363
+msgid "How I can help today"
+msgstr "I cosa ti posso aiutare oggi"
+
+#: telegram-chat.php:364
+msgid "Write your comments here"
+msgstr "Scrivi qui i tuoi commenti"
+
+#: telegram-chat.php:365 menu/config.php:155
+msgid "Name"
+msgstr "Nome"
+
+#: telegram-chat.php:366
+msgid "Telephone"
+msgstr "Telefono"
+
+#: telegram-chat.php:367
+msgid "optional"
+msgstr "opzionale"
+
+#: telegram-chat.php:368
+msgid "Send"
+msgstr "Invia"
+
+#: telegram-chat.php:371
+msgid "Write here"
+msgstr "Scrivi qui"
+
+#: telegram-chat.php:372
+msgid "The client is writing..."
+msgstr "Il Cliente sta scrivendo..."
+
+#: telegram-chat.php:374
+msgid "Client"
+msgstr "Cliente"
+
+#: telegram-chat.php:375
+msgid "Writing..."
+msgstr "Scrivendo..."
+
+#: telegram-chat.php:376
+msgid "Loading..."
+msgstr "Caricamento in corso ..."
+
+#: telegram-chat.php:378
+msgid "The plugin must be updated"
+msgstr "Il plugin deve essere aggiornato"
+
+#: telegram-chat.php:755
+msgid "Welcome"
+msgstr "Benvenuto"
+
+#: telegram-chat.php:756
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: telegram-chat.php:757 menu/active.php:65
+msgid "Activate"
+msgstr "Attivare"
+
+#. ID used to identify this section and with which to register options
+#: menu/active.php:13
+msgid "Telegram-Chat Activate"
+msgstr "Telegramma-Chat Attiva"
+
+#: menu/active.php:23
+msgid ""
+"From the date of download and activation, you will have three days as a demo "
+"to test the operation of the plugin, from the third day the plugin will no "
+"longer connect. <br>To obtain an activation code please consult the "
+"following link:<br><a href=\"http://telegramwordpress.com\" "
+"target=\"_blank\">http://telegramwordpress.com</a>"
+msgstr ""
+"A decorrere dalla data di download e l'attivazione, si avrà tre giorni come "
+"una demo per testare il funzionamento del plugin, dal terzo giorno il plugin "
+"non sarà più la connessione. <br>Per ottenere un codice di attivazione "
+"consultare il seguente link:<br><a href=\"http://telegramwordpress.com\" "
+"target=\"_blank\">http://telegramwordpress.com</a>"
+
+#: menu/active.php:45
+msgid "Activation code incorrect"
+msgstr "Codice di attivazione errato"
+
+#: menu/active.php:51
+msgid "Activation code has expired"
+msgstr "Il codice di attivazione è scaduto"
+
+#: menu/active.php:63
+msgid "Write the token here..."
+msgstr "Scrivi il token qui ..."
+
+#: menu/active.php:102
+msgid "Active token"
+msgstr "Token attivo"
+
+#: menu/active.php:102
+msgid "Expiration day"
+msgstr "Data di scadenza"
+
+#: menu/active.php:106 menu/config.php:89
+msgid "Delete"
+msgstr "Elimina"
+
+#: menu/display.php:17
+msgid "Telegram chat"
+msgstr "Telegram chat"
+
+#. ID used to identify the field throughout the theme
+#: menu/display.php:25
+msgid "How the Telegram-chat plugin work?"
+msgstr "Come funziona Telegram-chat?"
+
+#: menu/display.php:33
+msgid "Install Telegram on your cell phone"
+msgstr "Installa Telegram sul tuo smartphone"
+
+#: menu/display.php:68
+msgid ""
+"Do not lose communication with your customers, take all your conversations "
+"to your phone by Telegram. Just configure your phone number and ready! Now "
+"supports any visitor or information from your phone at any time. It is the "
+"easiest way to support and maintain contact with your customers."
+msgstr ""
+"Non perdere la comunicazione con i tuoi clienti, porta tutte le tue "
+"conversazioni sul tuo smart-phone grazie a Telegram. Devi solo inserire il "
+"numero di cellulare e sei pronto! Adesso puoi dare assistenza e informazioni "
+"a qualsiasi visitatore dal tuo smart-phone, a qualsiasi ora. Telegram-Chat è "
+"la forma più facile per rimanere in contatto con i tuoi clienti. Aggiungi la "
+"miglior soluzione per comunicare via chat al tuo sito web ora."
+
+#: menu/display.php:70
+msgid ""
+"<li>If you add more than one phone, you can answer from several cell phone "
+"at a time to the same customer, this makes communication more efficient and "
+"timely.</li><li>If your customers do not want to be connected to your "
+"website to have support, invite your client Telegram group and that they "
+"also enjoy the ease of communication. All with a single click.</li>"
+msgstr ""
+"<li>Se aggiungi più di un numero di cellulare, puoi rispondere da vari smart-"
+"phone nello stesso momento ed allo stesso cliente, questo rende la "
+"comunicazione più rapida ed efficace.</li><li>Se i tuoi clienti non vogliono "
+"connettersi alla tua pagina web per scriverti, invitali nel gruppo di "
+"Telegram così che possano comunicare con te più facilmente. Tutto grazie ad "
+"un solo click.</li>"
+
+#: menu/display.php:72
+msgid ""
+"<div style=\"padding:10px; margin:10px; text-align:center; background-color:"
+"#1c6899; color:#FFFFFF;\">Follow us on our channel, we will inform you of "
+"updates, news and promotions we have for you.<br><a href=\"https://telegram."
+"me/Chat4BusinessEN\" target=\"_blank\"><strong style=\"font-size:17px; color:"
+"#FFFFFF;\">@Chat4BusinessEN</strong></a></div>"
+msgstr ""
+"<div style=\"padding:10px; margin:10px; text-align:center; background-color:"
+"#1c6899; color:#FFFFFF;\">Seguici sul nostro Canale, resta informato sugli "
+"aggiornamenti, le notizie e le promozioni che ti abbiamo riservato.<br><a "
+"href=\"https://telegram.me/Chat4BusinessEN\" target=\"_blank\"><strong "
+"style=\"font-size:17px; color:#FFFFFF;\">@Chat4BusinessEN</strong></a></div>"
+
+#: menu/display.php:79
+msgid ""
+"When a customer wants to contact you, the client must first fill out the "
+"initial form, at the time the customer submits the form, the system "
+"automatically creates a group on Telegram, the group consists of a phone "
+"cell that manages communication and phone cell collaborator that you added "
+"in the \"<a href=\"?page=telegram-chat-plugin&tab=configuracion_options\">"
+"Settings</a>“. Once the group was created, the system sends the initial "
+"information the customer filled in the first form, when the partner sends a "
+"message through his cell from Telegram, the message will automatically reach "
+"the website."
+msgstr ""
+"Quando un cliente vuole contattarti deve prima compilare il modulo iniziale, "
+"dal momento in cui il cliente invia il modulo il sistema crea "
+"automaticamente un gruppo in Telegram, il gruppo è formato da un numero "
+"cellulare che gestisce la comunicazione ed un altro numero cellulare del "
+"collaboratore che si è aggiunto nella sezione di <a href=\"?page=telegram-"
+"chat-plugin&tab=configuracion_options\">Impostazioni</a>\". Una volta creato "
+"il gruppo, il sistema invia le informazioni iniziali che il cliente ha "
+"inserito nel primo modulo, quando l'assistente invia un messaggio attraverso "
+"il suo smart-phone da Telegram il messaggio verrà automaticamnte recapitato "
+"sulla chat della pagina web."
+
+#. ID used to identify this section and with which to register options
+#: menu/config.php:13
+msgid "Telegram-Chat Settings"
+msgstr "Impostazioni di Telegram-Chat"
+
+#: menu/config.php:23
+msgid ""
+"With this plugin you can chat directly from your website to your Telegram, "
+"forget sitting waiting for your prospects to contact you, now you can do "
+"from your phone.<br><small><a href=\"http://www.telegramwordpress.com/faqs\" "
+"target=\"_blank\">Check out our FAQs if you have questions</a></small>"
+msgstr ""
+"Con questo plugin potrai ricevere chat direttamente dalla tua pagina web al "
+"tuo account Telegram, dimentica di star seduto aspettando che i tuoi Utenti "
+"comunichino con Te, ora lo puoi fare dal tuo smart-phone.<br><small><a "
+"href=\"http://www.telegramwordpress.com/faqs\" target=\"_blank\">Visita le "
+"nostre FAQs sei hai qualche dubbio</a></small>"
+
+#: menu/config.php:58
+msgid ""
+"Registered collaborators</span></strong><br><small>These users will receive "
+"conversations in the Telegram when a customer wants to chat.</small>"
+msgstr ""
+"Utenti registrati</span></strong><br><small>Questi utenti riceveranno le "
+"conversazioni quando un cliente invierà una chat.</small>"
+
+#: menu/config.php:115
+msgid ""
+"<span style=\"width:10px; height:10px; background-color:#e3fbe0; padding:5px;"
+" margin:5px;\">Active user on Telegram</span> <span style=\"width:10px; "
+"height:10px; background-color:#fbe0e0; padding:5px; margin:5px;\">User not "
+"active on Telegram</span> <span style=\"width:10px; height:10px; background-"
+"color:#DDDDDD; padding:5px; margin:5px;\">Verifying user on Telegram</span>"
+"<br>Do you know how to download Telegram on your mobile? <a href=\"https:"
+"//www.youtube.com/watch?v=tGVKx8WR-7w\" target=\"_blank\">https://www."
+"youtube.com/watch?v=tGVKx8WR-7w</a>"
+msgstr ""
+"<span style=\"width:10px; height:10px; background-color:#e3fbe0; padding:5px;"
+" margin:5px;\">Utente attivo su Telegram</span> <span style=\"width:10px; "
+"height:10px; background-color:#fbe0e0; padding:5px; margin:5px;\">L'utente "
+"non attiva il telegramma</span><span style=\"width:10px; height:10px; "
+"background-color:#DDDDDD; padding:5px; margin:5px;\">Verifica utente su "
+"Telegram</span><br>¿Sapete come scaricare telegramma sul tuo telefonino? <a "
+"href=\"https://www.youtube.com/watch?v=tGVKx8WR-7w\" target=\"_blank\">https:"
+"//www.youtube.com/watch?v=tGVKx8WR-7w</a>"
+
+#: menu/config.php:119
+msgid "No collaborators"
+msgstr "No Collaboratore"
+
+#: menu/config.php:154
+msgid "New collaborator"
+msgstr "Nuovo Collaboratore"
+
+#: menu/config.php:161
+msgid "Code"
+msgstr "Lada"
+
+#: menu/config.php:418
+msgid "Phone (cellphone number)"
+msgstr "Telefono (numero di cellulare)"
+
+#: menu/config.php:421
+msgid "Alert new conversation"
+msgstr "Notifica domanda"
+
+#: menu/config.php:423
+msgid "Email"
+msgstr "posta elettronica"
+
+#: menu/config.php:427 menu/config.php:477 menu/config.php:510
+msgid "Save"
+msgstr "Salva"
+
+#: menu/config.php:436
+msgid ""
+"<span style=\"font-size:19px\">Chat Information</span><br><small>Information "
+"and images that were used in the chat window, do not need to be the same as "
+"collaborators.</small>"
+msgstr ""
+"<span style=\"font-size:19px\">Informazioni sulla Chat</span><br><small>"
+"Informazioni e immagini da utilizzare nella finestra della chat, non è "
+"necessario che sia la stessa foto di quella dei collaboratori.</small>"
+
+#: menu/config.php:447
+msgid "Visible on mobile"
+msgstr "Visibile sul cellulare"
+
+#: menu/config.php:449 menu/config.php:456
+msgid "Yes"
+msgstr "Sì"
+
+#: menu/config.php:450 menu/config.php:457
+msgid "No"
+msgstr "Non"
+
+#: menu/config.php:461
+msgid "Profile Name"
+msgstr "Nome assistente"
+
+#: menu/config.php:465 menu/config.php:491
+msgid "Profile photo"
+msgstr "Foto del profilo"
+
+#: menu/config.php:493
+msgid "Company photo"
+msgstr "Logo dell'azienda"
+
+#: menu/config.php:497
+msgid "Recommended 80x80px"
+msgstr "Dimensione raccomandata 80x80px"
+
+#: menu/config.php:501
+msgid "Recommended 60x60px"
+msgstr "Dimensione raccomandata 60x60px"
+
+#. Name of the plugin
+msgid "Telegram-chat"
+msgstr "Telegram-chat"
+
+#. Description of the plugin
+msgid ""
+"Take all your conversations to your phone by Telegram. Just configure your "
+"phone number and ready!"
+msgstr ""
+"Porta tutte le tue conversazioni sul tuo smart-phone grazie a Telegram. Devi "
+"solo inserire il numero di cellulare e sei pronto!"
+
+#. URI of the plugin
+msgid "http://telegramwordpress.com/"
+msgstr "http://telegramwordpress.com/"
+
+#. Author of the plugin
+msgid "Totalpat, S.A. de C.V."
+msgstr "Totalpat, S.A. de C.V."
+
+#. Author URI of the plugin
+msgid "http://www.totalpat.com"
+msgstr "http://www.totalpat.com"

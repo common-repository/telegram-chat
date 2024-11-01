@@ -1,0 +1,1188 @@
+@charset "UTF-8";
+/* CSS Document 
+
+AZUL FUERTE 1c6899
+AZUL DEBIL d4e6f1
+
+* /
+
+.defaulttable * {
+	all: revert;
+}
+.defaulttable:hover * {
+	all: revert;
+}
+*/
+
+.defaulttable:not(.woocommerce-page) table tr:hover td {
+	border-color:#FFF; background:transparent;
+	color:#666;
+	border-collapse:initial;
+}
+
+.resetTD, .resetTD:hover, .resetTD:active{
+	border-color:#FFF;
+	background:#FFF;
+	border-collapse:initial;
+	border-spacing: 0;
+}
+
+
+.defaulttable div td tr table * {
+	background:none;
+	border-collapse:initial;
+	border-collapse: separate;
+    border-spacing: 0;
+	font-weight: normal;
+    text-align: left;
+	border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+table.defaulttable, caption.defaulttable, tbody.defaulttable, tfoot.defaulttable, thead.defaulttable, tr.defaulttable, th.defaulttable, td.defaulttable {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+	border-collapse: separate;
+    border-spacing: 0;
+	font-weight: normal;
+    text-align: left;
+}
+
+.defaulttable td:hover tr:hover table:hover * {
+	background:#FFF;
+	border-collapse:initial;
+}
+
+.defaulttable div.chatTelegramTotalpat:hover{
+	background:#FFF;
+}
+
+.clearForms, .clearForms:focus{
+	animation : none;
+    animation-delay : 0;
+    animation-direction : normal;
+    animation-duration : 0;
+    animation-fill-mode : none;
+    animation-iteration-count : 1;
+    animation-name : none;
+    animation-play-state : running;
+    animation-timing-function : ease;
+    backface-visibility : visible;
+    background : 0;
+    background-attachment : scroll;
+    background-clip : border-box;
+    background-color : transparent;
+    background-image : none;
+    background-origin : padding-box;
+    background-position : 0 0;
+    background-position-x : 0;
+    background-position-y : 0;
+    background-repeat : repeat;
+    background-size : auto auto;
+    border : 0;
+    border-style : none;
+    border-width : medium;
+    border-color : inherit;
+    border-bottom : 0;
+    border-bottom-color : inherit;
+    border-bottom-left-radius : 0;
+    border-bottom-right-radius : 0;
+    border-bottom-style : none;
+    border-bottom-width : medium;
+    border-collapse : separate;
+    border-image : none;
+    border-left : 0;
+    border-left-color : inherit;
+    border-left-style : none;
+    border-left-width : medium;
+    border-radius : 0;
+    border-right : 0;
+    border-right-color : inherit;
+    border-right-style : none;
+    border-right-width : medium;
+    border-spacing : 0;
+    border-top : 0;
+    border-top-color : inherit;
+    border-top-left-radius : 0;
+    border-top-right-radius : 0;
+    border-top-style : none;
+    border-top-width : medium;
+    bottom : auto;
+    box-shadow : none;
+    box-sizing : content-box;
+    caption-side : top;
+    clear : none;
+    clip : auto;
+    color : inherit;
+    columns : auto;
+    column-count : auto;
+    column-fill : balance;
+    column-gap : normal;
+    column-rule : medium none currentColor;
+    column-rule-color : currentColor;
+    column-rule-style : none;
+    column-rule-width : none;
+    column-span : 1;
+    column-width : auto;
+    content : normal;
+    counter-increment : none;
+    counter-reset : none;
+    cursor : auto;
+    direction : ltr;
+    display : inline;
+    empty-cells : show;
+    float : none;
+    font : normal;
+    font-family : inherit;
+    font-size : medium;
+    font-style : normal;
+    font-variant : normal;
+    font-weight : normal;
+    height : auto;
+    hyphens : none;
+    left : auto;
+    letter-spacing : normal;
+    line-height : normal;
+    list-style : none;
+    list-style-image : none;
+    list-style-position : outside;
+    list-style-type : disc;
+    margin : 0;
+    margin-bottom : 0;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    max-height : none;
+    max-width : none;
+    min-height : 0;
+    min-width : 0;
+    opacity : 1;
+    orphans : 0;
+    outline : 0;
+    outline-color : invert;
+    outline-style : none;
+    outline-width : medium;
+    overflow : visible;
+    overflow-x : visible;
+    overflow-y : visible;
+    padding : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+    page-break-after : auto;
+    page-break-before : auto;
+    page-break-inside : auto;
+    perspective : none;
+    perspective-origin : 50% 50%;
+    position : static;
+    /* May need to alter quotes for different locales (e.g fr) */
+    quotes : '\201C' '\201D' '\2018' '\2019';
+    right : auto;
+    tab-size : 8;
+    table-layout : auto;
+    text-align : inherit;
+    text-align-last : auto;
+    text-decoration : none;
+    text-decoration-color : inherit;
+    text-decoration-line : none;
+    text-decoration-style : solid;
+    text-indent : 0;
+    text-shadow : none;
+    text-transform : none;
+    top : auto;
+    transform : none;
+    transform-style : flat;
+    transition : none;
+    transition-delay : 0s;
+    transition-duration : 0s;
+    transition-property : none;
+    transition-timing-function : ease;
+    unicode-bidi : normal;
+    vertical-align : baseline;
+    visibility : visible;
+    white-space : normal;
+    widows : 0;
+    width : auto;
+    word-spacing : normal;
+    z-index : auto;
+	color:#000;
+	background-color:#FFF;
+	background:#FFFFFF;
+	box-shadow: 0 0 10px #719ECE;
+}
+
+#chatTelegramTotalpat *{
+    margin:0;
+    padding:0;
+}
+
+
+#tituloTelegramChat table tr:nth-child(odd) td{
+	background-color:#1c6899;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border-color:#1c6899;
+}
+
+#chatTelegramTotalpat{
+	width:250px;
+	height:40px;
+	background-color:#1c6899;
+	z-index:99999;
+	position:fixed;
+	float:right;
+	bottom:10px;
+	right:10px;
+	
+	-webkit-box-shadow: 6px 6px 25px -4px rgba(0,0,0,0.82);
+	-moz-box-shadow: 6px 6px 25px -4px rgba(0,0,0,0.82);
+	box-shadow: 6px 6px 25px -4px rgba(0,0,0,0.82);
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border:none;
+	border-color:transparent;
+}
+
+#mensajeTelegramChat{
+	position:fixed;
+	width:240px;
+	padding-left:5px;
+	height:0;
+	bottom:55px;
+	z-index:99991;
+	display:none;
+}
+
+#mensajeTelegramChat img{
+	opacity:0;
+	-webkit-box-shadow: 6px 6px 25px -4px rgba(0,0,0,0.32);
+	-moz-box-shadow: 6px 6px 25px -4px rgba(0,0,0,0.32);
+	box-shadow: 6px 6px 25px -4px rgba(0,0,0,0.32);
+}
+
+#tituloTelegramChat{
+	cursor:pointer;
+	border-color:transparent;
+}
+
+#tituloTelegramChat td{
+	height:40px;
+	color:#FFF;
+	vertical-align:middle;
+	width:auto;
+	border:none;
+	border-color:transparent;
+}
+
+#tituloTelegramChat td:first-child{
+	text-align:center;
+	width:35px;
+}
+
+#tituloTelegramChat td:last-child{
+	text-align:center;
+	width:35px;
+}
+
+#tituloTelegramChat td:last-child i{
+	display:none
+}
+
+#loadingTelegramChat{
+	text-align:center;
+	background-color:#1c6899;
+	width:100%;
+	height:0px;
+	visibility:hidden;
+}
+
+#contenidoTelegramChat table, th, td{
+	background-color:#FFFFFF;
+	border:none;
+	box-shadow:none;
+	border-color:transparent;
+}
+#contenidoTelegramChat{
+	background-color:#FFF;
+	padding:10px;
+	border-top:solid 5px #d4e6f1;
+	visibility:hidden;
+	
+	border:none;
+	border-color:transparent;
+	
+}
+
+#profileAsesor *{
+	box-shadow:none;
+	border:none;
+	border-color:#FFF;
+	background:#FFF;
+}
+
+#tableMensajeTelegramChat:hover *{
+	box-shadow:none;
+	border:none;
+	border-color:#FFF;
+	background:#FFF;
+}
+
+
+#profileAsesor{
+	line-height:16px;
+	box-shadow:none;
+	border:none;
+	border-color:transparent;
+}
+
+#tablaGeneralContenido td{
+	border:none;
+	border-color:transparent;
+}
+
+
+#profileAsesor td:first-child {
+	width:70px;
+	text-align:left;
+	box-shadow:none;
+	border:none;
+}
+
+#profileAsesor td:first-child img{
+	max-height: 65px;
+	max-width: 65px;
+	border-radius: 50%;
+}
+
+#profileAsesor span{
+	color:#1c6899;
+	font-size:12px;
+}
+
+#profileAsesor td:last-child{
+	width:40px;
+	text-align:center;
+}
+
+#profileAsesor td:last-child img{
+	max-height: 50px;
+	max-width: 70px;
+	margin-bottom:10px;
+}
+
+
+#mensajeAsesor 
+{
+	text-align:left;
+	position: relative;
+	width: 97%;
+	height: 30px;
+	padding: 0px;
+	background: #d4e6f1;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding-left:10px;
+	padding-top:7px;
+	font-weight:600;
+	color:#1c6899;
+	vertical-align:middle;
+}
+
+.inputTelegramChat:focus {
+	box-shadow: 0 0 5px rgba(212, 230, 241, 1);
+	padding: 3px 0px 3px 3px;
+	margin: 5px 1px 3px 0px;
+	border: 1px solid rgba(81, 203, 238, 1);
+	background-color:#FFF;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+input[type="text"].inputTelegramChat:focus{
+
+	box-shadow: 0 0 5px rgba(212, 230, 241, 1);
+	padding: 3px 0px 3px 3px;
+	margin: 5px 1px 3px 0px;
+	border: 1px solid rgba(81, 203, 238, 1);
+	height:25px;
+	background-color:#FFF;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin:0;
+}
+
+input[type="text"].inputTelegramChat{
+	
+	
+	animation : none;
+    animation-delay : 0;
+    animation-direction : normal;
+    animation-duration : 0;
+    animation-fill-mode : none;
+    animation-iteration-count : 1;
+    animation-name : none;
+    animation-play-state : running;
+    animation-timing-function : ease;
+    backface-visibility : visible;
+    background : 0;
+    background-attachment : scroll;
+    background-clip : border-box;
+    background-color : transparent;
+    background-image : none;
+    background-origin : padding-box;
+    background-position : 0 0;
+    background-position-x : 0;
+    background-position-y : 0;
+    background-repeat : repeat;
+    background-size : auto auto;
+    border : 0;
+    border-style : none;
+    border-width : medium;
+    border-color : inherit;
+    border-bottom : 0;
+    border-bottom-color : inherit;
+    border-bottom-left-radius : 0;
+    border-bottom-right-radius : 0;
+    border-bottom-style : none;
+    border-bottom-width : medium;
+    border-collapse : separate;
+    border-image : none;
+    border-left : 0;
+    border-left-color : inherit;
+    border-left-style : none;
+    border-left-width : medium;
+    border-radius : 0;
+    border-right : 0;
+    border-right-color : inherit;
+    border-right-style : none;
+    border-right-width : medium;
+    border-spacing : 0;
+    border-top : 0;
+    border-top-color : inherit;
+    border-top-left-radius : 0;
+    border-top-right-radius : 0;
+    border-top-style : none;
+    border-top-width : medium;
+    bottom : auto;
+    box-shadow : none;
+    box-sizing : content-box;
+    caption-side : top;
+    clear : none;
+    clip : auto;
+    color : inherit;
+    columns : auto;
+    column-count : auto;
+    column-fill : balance;
+    column-gap : normal;
+    column-rule : medium none currentColor;
+    column-rule-color : currentColor;
+    column-rule-style : none;
+    column-rule-width : none;
+    column-span : 1;
+    column-width : auto;
+    content : normal;
+    counter-increment : none;
+    counter-reset : none;
+    cursor : auto;
+    direction : ltr;
+    display : inline;
+    empty-cells : show;
+    float : none;
+    font : normal;
+    font-family : inherit;
+    font-size : medium;
+    font-style : normal;
+    font-variant : normal;
+    font-weight : normal;
+    height : auto;
+    hyphens : none;
+    left : auto;
+    letter-spacing : normal;
+    line-height : normal;
+    list-style : none;
+    list-style-image : none;
+    list-style-position : outside;
+    list-style-type : disc;
+    margin : 0;
+    margin-bottom : 0;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    max-height : none;
+    max-width : none;
+    min-height : 0;
+    min-width : 0;
+    opacity : 1;
+    orphans : 0;
+    outline : 0;
+    outline-color : invert;
+    outline-style : none;
+    outline-width : medium;
+    overflow : visible;
+    overflow-x : visible;
+    overflow-y : visible;
+    padding : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+    page-break-after : auto;
+    page-break-before : auto;
+    page-break-inside : auto;
+    perspective : none;
+    perspective-origin : 50% 50%;
+    position : static;
+    /* May need to alter quotes for different locales (e.g fr) */
+    quotes : '\201C' '\201D' '\2018' '\2019';
+    right : auto;
+    tab-size : 8;
+    table-layout : auto;
+    text-align : inherit;
+    text-align-last : auto;
+    text-decoration : none;
+    text-decoration-color : inherit;
+    text-decoration-line : none;
+    text-decoration-style : solid;
+    text-indent : 0;
+    text-shadow : none;
+    text-transform : none;
+    top : auto;
+    transform : none;
+    transform-style : flat;
+    transition : none;
+    transition-delay : 0s;
+    transition-duration : 0s;
+    transition-property : none;
+    transition-timing-function : ease;
+    unicode-bidi : normal;
+    vertical-align : baseline;
+    visibility : visible;
+    white-space : normal;
+    widows : 0;
+    width : auto;
+    word-spacing : normal;
+    z-index : auto;
+	
+	
+	
+	width:97%;
+	font-size:13px;
+	font-family:Verdana, Geneva, sans-serif;
+	resize:none;
+	
+	
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+  
+  -webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	height:25px;
+	margin:3px;
+	margin:0;
+	text-align:left;
+	
+}
+.inputTelegramChat {
+	
+	width:97%;
+	font-size:13px;
+	font-family:Verdana, Geneva, sans-serif;
+	resize:none;
+	
+	
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+  
+  -webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	height:25px;
+}
+
+
+textarea.textareaTelegramChatRegistro, textarea.textareaTelegramChatRegistro:focus{
+	
+	
+	
+	animation : none;
+    animation-delay : 0;
+    animation-direction : normal;
+    animation-duration : 0;
+    animation-fill-mode : none;
+    animation-iteration-count : 1;
+    animation-name : none;
+    animation-play-state : running;
+    animation-timing-function : ease;
+    backface-visibility : visible;
+    background : 0;
+    background-attachment : scroll;
+    background-clip : border-box;
+    background-color : transparent;
+    background-image : none;
+    background-origin : padding-box;
+    background-position : 0 0;
+    background-position-x : 0;
+    background-position-y : 0;
+    background-repeat : repeat;
+    background-size : auto auto;
+    border : 0;
+    border-style : none;
+    border-width : medium;
+    border-color : inherit;
+    border-bottom : 0;
+    border-bottom-color : inherit;
+    border-bottom-left-radius : 0;
+    border-bottom-right-radius : 0;
+    border-bottom-style : none;
+    border-bottom-width : medium;
+    border-collapse : separate;
+    border-image : none;
+    border-left : 0;
+    border-left-color : inherit;
+    border-left-style : none;
+    border-left-width : medium;
+    border-radius : 0;
+    border-right : 0;
+    border-right-color : inherit;
+    border-right-style : none;
+    border-right-width : medium;
+    border-spacing : 0;
+    border-top : 0;
+    border-top-color : inherit;
+    border-top-left-radius : 0;
+    border-top-right-radius : 0;
+    border-top-style : none;
+    border-top-width : medium;
+    bottom : auto;
+    box-shadow : none;
+    box-sizing : content-box;
+    caption-side : top;
+    clear : none;
+    clip : auto;
+    color : inherit;
+    columns : auto;
+    column-count : auto;
+    column-fill : balance;
+    column-gap : normal;
+    column-rule : medium none currentColor;
+    column-rule-color : currentColor;
+    column-rule-style : none;
+    column-rule-width : none;
+    column-span : 1;
+    column-width : auto;
+    content : normal;
+    counter-increment : none;
+    counter-reset : none;
+    cursor : auto;
+    direction : ltr;
+    display : inline;
+    empty-cells : show;
+    float : none;
+    font : normal;
+    font-family : inherit;
+    font-size : medium;
+    font-style : normal;
+    font-variant : normal;
+    font-weight : normal;
+    height : auto;
+    hyphens : none;
+    left : auto;
+    letter-spacing : normal;
+    line-height : normal;
+    list-style : none;
+    list-style-image : none;
+    list-style-position : outside;
+    list-style-type : disc;
+    margin : 0;
+    margin-bottom : 0;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    max-height : none;
+    max-width : none;
+    min-height : 0;
+    min-width : 0;
+    opacity : 1;
+    orphans : 0;
+    outline : 0;
+    outline-color : invert;
+    outline-style : none;
+    outline-width : medium;
+    overflow : visible;
+    overflow-x : visible;
+    overflow-y : visible;
+    padding : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+    page-break-after : auto;
+    page-break-before : auto;
+    page-break-inside : auto;
+    perspective : none;
+    perspective-origin : 50% 50%;
+    position : static;
+    /* May need to alter quotes for different locales (e.g fr) */
+    quotes : '\201C' '\201D' '\2018' '\2019';
+    right : auto;
+    tab-size : 8;
+    table-layout : auto;
+    text-align : inherit;
+    text-align-last : auto;
+    text-decoration : none;
+    text-decoration-color : inherit;
+    text-decoration-line : none;
+    text-decoration-style : solid;
+    text-indent : 0;
+    text-shadow : none;
+    text-transform : none;
+    top : auto;
+    transform : none;
+    transform-style : flat;
+    transition : none;
+    transition-delay : 0s;
+    transition-duration : 0s;
+    transition-property : none;
+    transition-timing-function : ease;
+    unicode-bidi : normal;
+    vertical-align : baseline;
+    visibility : visible;
+    white-space : normal;
+    widows : 0;
+    width : auto;
+    word-spacing : normal;
+    z-index : auto;
+	
+	
+	width:97%;
+	font-size:13px;
+	font-family:Verdana, Geneva, sans-serif;
+	resize:none;
+	
+	
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+  
+  -webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	
+	height:120px;
+	text-align:left;
+	
+	color:#666;
+}
+
+textarea.textareaTelegramChatRegistro:focus{
+	
+	box-shadow: 0 0 5px rgba(212, 230, 241, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+  background-color:#FFF;
+  -webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color:#666;
+	
+	height:120px;
+}
+
+
+
+textarea.textareaTelegramChat{
+	
+	
+	
+	animation : none;
+    animation-delay : 0;
+    animation-direction : normal;
+    animation-duration : 0;
+    animation-fill-mode : none;
+    animation-iteration-count : 1;
+    animation-name : none;
+    animation-play-state : running;
+    animation-timing-function : ease;
+    backface-visibility : visible;
+    background : 0;
+    background-attachment : scroll;
+    background-clip : border-box;
+    background-color : transparent;
+    background-image : none;
+    background-origin : padding-box;
+    background-position : 0 0;
+    background-position-x : 0;
+    background-position-y : 0;
+    background-repeat : repeat;
+    background-size : auto auto;
+    border : 0;
+    border-style : none;
+    border-width : medium;
+    border-color : inherit;
+    border-bottom : 0;
+    border-bottom-color : inherit;
+    border-bottom-left-radius : 0;
+    border-bottom-right-radius : 0;
+    border-bottom-style : none;
+    border-bottom-width : medium;
+    border-collapse : separate;
+    border-image : none;
+    border-left : 0;
+    border-left-color : inherit;
+    border-left-style : none;
+    border-left-width : medium;
+    border-radius : 0;
+    border-right : 0;
+    border-right-color : inherit;
+    border-right-style : none;
+    border-right-width : medium;
+    border-spacing : 0;
+    border-top : 0;
+    border-top-color : inherit;
+    border-top-left-radius : 0;
+    border-top-right-radius : 0;
+    border-top-style : none;
+    border-top-width : medium;
+    bottom : auto;
+    box-shadow : none;
+    box-sizing : content-box;
+    caption-side : top;
+    clear : none;
+    clip : auto;
+    color : inherit;
+    columns : auto;
+    column-count : auto;
+    column-fill : balance;
+    column-gap : normal;
+    column-rule : medium none currentColor;
+    column-rule-color : currentColor;
+    column-rule-style : none;
+    column-rule-width : none;
+    column-span : 1;
+    column-width : auto;
+    content : normal;
+    counter-increment : none;
+    counter-reset : none;
+    cursor : auto;
+    direction : ltr;
+    display : inline;
+    empty-cells : show;
+    float : none;
+    font : normal;
+    font-family : inherit;
+    font-size : medium;
+    font-style : normal;
+    font-variant : normal;
+    font-weight : normal;
+    height : auto;
+    hyphens : none;
+    left : auto;
+    letter-spacing : normal;
+    line-height : normal;
+    list-style : none;
+    list-style-image : none;
+    list-style-position : outside;
+    list-style-type : disc;
+    margin : 0;
+    margin-bottom : 0;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    max-height : none;
+    max-width : none;
+    min-height : 0;
+    min-width : 0;
+    opacity : 1;
+    orphans : 0;
+    outline : 0;
+    outline-color : invert;
+    outline-style : none;
+    outline-width : medium;
+    overflow : visible;
+    overflow-x : visible;
+    overflow-y : visible;
+    padding : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+    page-break-after : auto;
+    page-break-before : auto;
+    page-break-inside : auto;
+    perspective : none;
+    perspective-origin : 50% 50%;
+    position : static;
+    /* May need to alter quotes for different locales (e.g fr) */
+    quotes : '\201C' '\201D' '\2018' '\2019';
+    right : auto;
+    tab-size : 8;
+    table-layout : auto;
+    text-align : inherit;
+    text-align-last : auto;
+    text-decoration : none;
+    text-decoration-color : inherit;
+    text-decoration-line : none;
+    text-decoration-style : solid;
+    text-indent : 0;
+    text-shadow : none;
+    text-transform : none;
+    top : auto;
+    transform : none;
+    transform-style : flat;
+    transition : none;
+    transition-delay : 0s;
+    transition-duration : 0s;
+    transition-property : none;
+    transition-timing-function : ease;
+    unicode-bidi : normal;
+    vertical-align : baseline;
+    visibility : visible;
+    white-space : normal;
+    widows : 0;
+    width : auto;
+    word-spacing : normal;
+    z-index : auto;
+	
+	
+	width:97%;
+	font-size:13px;
+	font-family:Verdana, Geneva, sans-serif;
+	resize:none;
+	
+	
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+  
+  -webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	
+	height:40px;
+	text-align:left;
+	color:#666;
+}
+
+textarea.textareaTelegramChat:focus{
+	
+	box-shadow: 0 0 5px rgba(212, 230, 241, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+  background-color:#FFF;
+  -webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	
+	color:#666;
+	height:40px;
+}
+
+.profileCliente .labelDatos{
+	width:18%;
+	font-size:11px;
+	vertical-align:middle;
+	color:#666;
+	font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+.profileCliente:hover .labelDatos:hover{
+	width:18%;
+	font-size:11px;
+	vertical-align:middle;
+	color:#666;
+}
+
+input[type="button"].buttonTelegramChat {
+	background-color: #f44336; /* Green */
+	border: none;
+	color: white;
+	padding: 5px 18px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	width: 70%;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin-top:10px;
+	color:#666;
+}
+
+button.buttonTelegramChat {
+	background-color: #f44336; /* Green */
+	border: none;
+	color: white;
+	padding: 5px 18px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	width: 70%;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin-top:10px;
+	color:#666;
+}
+
+#footerTelegramChat{
+	border-top:solid 5px #d4e6f1;
+	font-size:10px;
+	color:#d4e6f1;
+	cursor:pointer;
+	text-align:right;
+	padding-right:10px;
+	z-index:99999999;
+}
+
+#footerTelegramChat:hover{
+	color:#FFF;
+}
+
+.historialChat{
+	width:100%;
+	height:270px;
+	border:solid 1px #EEEEEE;
+	background-color:#f6f6f6;
+	overflow: auto;
+}
+
+.message_chat{
+	height:20px;
+}
+
+
+	
+
+.scrollbar
+{
+	float: left;
+	overflow-y: scroll;
+	overflow-x:hidden;
+}
+
+.style-1::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);
+	background-color: #FFFFFF;
+}
+
+.style-1::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #FFFFFF;
+}
+
+.style-1::-webkit-scrollbar-thumb
+{
+	background-color: #d1d1d1;
+}
+
+.noscroll {
+    overflow: hidden;
+}
+
+.mensajeAsesorChat{
+	width:70%;
+	float:left;
+	padding:5px;
+	margin:5px;
+	background-color:#f2feff;
+	line-height:20px;
+	color:#333;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-size:13px;
+}
+.mensajeAsesorChat:hover{
+	width:70%;
+	float:left;
+	padding:5px;
+	margin:5px;
+	background-color:#f2feff;
+	line-height:20px;
+	color:#333;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-size:13px;
+}
+.mensajeCliente{
+	width:70%;
+	float:right;
+	text-align:left;
+	padding:5px;
+	margin:5px;
+	background-color:#e8fff3;
+	line-height:20px;
+	color:#333;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-size:13px;
+}
+
+.mensajeCliente:hover{
+	width:70%;
+	float:right;
+	text-align:left;
+	padding:5px;
+	margin:5px;
+	background-color:#e8fff3;
+	line-height:20px;
+	color:#333;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-size:13px;
+}
+
+
+
